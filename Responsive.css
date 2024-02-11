@@ -1,0 +1,75 @@
+@media only screen and (max-width: 1400px) {
+	.info1, .info2 {
+		font-size: 110%;
+		border-radius: 40px;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	.info1, .info2 {
+		font-size: 90%;
+	}
+	.courseDeets {
+		font-size: 90%;
+		border-radius: 10px;
+	}
+	.courseDeets > video {
+		width: 30%
+	}
+	
+	.courseInfo {
+		display: grid;
+		flex-direction: column;
+		justify-content: center;
+		grid-template-columns: 50% 50%;
+		width: 100%;
+		text-align: center;
+	}
+	.movingtext, .movingText2 {
+		justify-content: center;
+		width: 100%;
+		text-align: center;
+	}
+	
+	.imageContent {
+		display: none;
+	}
+	
+	.imageContent1 {
+	display: flex;
+	justify-content: center;
+	}
+	
+	.imageContent1 > video {
+		width: 30%;
+		margin-top: 10%
+	}
+	.endmessage {
+		font-size: 160%
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	.info1, .info2 {
+		font-size: 70%;
+	}
+	.endmessage {
+		font-size: 110%
+	}
+    
+    h3 {
+        font-size: 160%
+    }
+}
+
+@media only screen and (max-width: 500px) {
+	.info1, .info2 {
+		font-size: 40%;
+	}
+	.courseDeets > video {
+		width: 50%
+	}
+	.endmessage {
+	font-size: 90%
+	}
+}

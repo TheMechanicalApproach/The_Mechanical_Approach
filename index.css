@@ -1,0 +1,113 @@
+.main {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.maintext {
+}
+.gifcontainer > img {
+  width: 15%;
+}
+.courseInfo {
+  margin-top: 8%;
+  border-left: none;
+  border-right: none;
+  display: grid;
+  grid-template-columns: 33.3333333333333% 33.3333333333% 33.33333333%;
+}
+.imageContent {
+  width: 100%;
+}
+.imageContent > video {
+  width: 50%;
+}
+.movingtext {
+  color: white;
+  text-decoration: bold;
+}
+h2 {
+  color: black;
+}
+.section2 {
+  display: flex;
+  justify-content: center;
+}
+.courseDeets {
+  margin-top: 7%;
+  font-size: 150%;
+  border: 1px solid black;
+  width: 30%;
+border-radius: 90px;
+}
+.imageContent1 {
+	display: none;
+}
+h3 {
+  font-size: 200%;
+  margin-top: 10%;
+}
+.mediawrapper {
+  margin-top: 10%;
+  overflow: hidden;
+}
+.mediatext {
+  text-align: center;
+  font-size: 200%;
+  color: white;
+}
+.dance1 > video {
+    width: 30%;
+}
+a {
+  text-decoration: none;
+  padding: 3%;
+  margin-top: 3%;
+  font-size: 90%;
+  color: black;
+}
+.infowrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+.courseinfo {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    column-gap: 3%
+}
+.info1 {
+    padding: 1%;
+    border: 1px solid black;
+    font-size: 200%;
+    width: 50%;
+    border-radius: 90px;
+}
+
+.info2 {
+    padding: 1%;
+    border: 1px solid black;
+    width: 100%;
+    font-size: 200%;
+    width: 50%;
+    border-radius: 90px;
+}
+.info1:hover {
+    background: #142e3a;
+    color: white;
+}
+.info2:hover {
+    background: #142e3a;
+    color: white;
+}
+a:hover {
+    color: white;
+}
+.endmessage {
+    margin-top: 5%;
+    font-size: 300%;
+    color: black;
+    animation: endmessage 3s infinite;
+}
