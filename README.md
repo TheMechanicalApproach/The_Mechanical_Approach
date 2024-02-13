@@ -8,6 +8,8 @@ https://themechanicalapproach.github.io/The_Mechanical_Approach/
 
 Website built by Chen Yanguang under his brand, Web Wizards
 
+![App Screenshot](https://github.com/TheMechanicalApproach/The_Mechanical_Approach/blob/main/Assets/Web%20Wizards.png?raw=true)
+
 
 ## Tech Stack
 - HTML
